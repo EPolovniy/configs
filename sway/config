@@ -247,6 +247,7 @@ set $lockman exec bash ~/.config/sway/lockman.sh
 bindsym $mod+p exec $lockman
 
 exec_always --no-startup-id 'nm-applet --indicator'
+exec "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
 
 include /etc/sway/config.d/*
 
