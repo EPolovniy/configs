@@ -1,0 +1,12 @@
+gui:
+  theme:
+    activeBorderColor:
+      - '#00ff00'
+      - bold
+    inactiveBorderColor:
+      - green
+      - black
+keybinding:
+  universal:
+    prevBlock-alt: 'l' # goto the previous block / panel
+    nextBlock-alt: 'h' # goto the next block / panel
